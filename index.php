@@ -17,14 +17,11 @@
 </head>
 
 <body>
-
-<!-- HEADER -->
-<section>
+<!-- HEADER  -->
 <?php 
     include "./includes/tools.php";
     include "./includes/header.php"; 
 ?>
-</section>
 <!-- END:HEADER -->
 
 <!-- QUESTION -->
