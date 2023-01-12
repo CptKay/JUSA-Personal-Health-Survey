@@ -19,11 +19,21 @@
 <body>
 
 <!-- HEADER -->
+<section>
 <?php 
     include "./includes/tools.php";
     include "./includes/header.php"; 
 ?>
+</section>
 <!-- END:HEADER -->
+
+<!-- QUESTION -->
+<section>
+<?php 
+    // include "./includes/questions.php";
+?>
+</section>
+<!-- END:QUESTION -->
 
 
 </body>
