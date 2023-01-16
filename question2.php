@@ -1,10 +1,12 @@
+<?php session_start();
+?>
     <!-- HEADER  -->
     <?php
     include "./includes/tools.php";
     include "./includes/header.php";
     ?>
     <!-- END:HEADER -->
-    <body>
+<body>
     <!-- QUESTION -->
 <div class="container text-center">
 <form class="form-horizontal" action="question2.php" method="post" id="q02">
@@ -22,10 +24,12 @@
   <input class="form-check-input" type="radio" name="radioButtons" id="qa2" value="option2" />
   <label class="form-check-label" for="qa2">No</label>
 </div>
+
 </div>
 <div>
-    <button class="btn btn-primary" type="submit">Next</button>
+    <button class="btn btn-primary" type="submit" value="submit">Next</button>
 </div>
 </form>
 </div>
+</body>
     <!-- END:QUESTION -->
