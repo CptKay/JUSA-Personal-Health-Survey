@@ -14,8 +14,25 @@
         } else{
         Echo "Please slide the Slider Bar and Press Submit.";
         }
-
+        //question2
+        if(isset($_POST['submit']))
+        {
+        $name1=@trim($_POST['radioButtons']);
+          
+        if($name1=="" ) 
+        {
+        
+        echo "Select first";
+        }
+        else
+        {
+        echo "Correct<br>"; 
+        echo "You have selected :$name1";
+        }
+        }
+         
 
         ?>
+
     
 </div>
