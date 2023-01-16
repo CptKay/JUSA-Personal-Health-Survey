@@ -29,6 +29,3 @@
         ?>
     </section>
     <!-- END:QUESTION -->
-
-
-</body>
