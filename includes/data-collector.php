@@ -1,4 +1,5 @@
-    <!-- HEADER  -->
+
+ <!-- HEADER  -->
     <?php
     include "tools.php";
        ?>
@@ -25,5 +26,5 @@ prettyPrint($_SESSION);
 
 
         ?>
-    
-</div>
+
+

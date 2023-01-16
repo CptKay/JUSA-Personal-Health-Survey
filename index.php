@@ -1,20 +1,43 @@
 
 
-<!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script> -->
     
 <!-- HEADER  -->
     <?php
+
     // session_start();
     
     // include "./includes/tools.php";
+
     include "./includes/header.php";
     ?>
+
     <!-- END:HEADER -->
 
     <body>
+
     <?php
     session_destroy();
     ?>
+
+<header>
+
+<nav class="navbar-expand">
+		<ol class="cd-multi-steps text-center custom-icons">
+			<li class="current"><em>Question 1</em></li>
+			<li><em>Question 02</em></li>
+            <li><em>Question 03</em></li>
+            <li><em>Question 04</em></li>
+            <li><em>Question 05</em></li>
+            <li><em>Question 06</em></li>
+            <li><em>Question 07</em></li>
+            <li><em>Question 08</em></li>
+            <li><em>Question 09</em></li>
+			<li<aem>Question 10</aem></li>
+			<li><em>Evaluation</em></li>
+		</ol>
+	</nav>
+</header>
+
     <!-- QUESTION -->
     <section>
 
@@ -39,6 +62,7 @@
       <div>
 
   <input type="range" class="form-range" min="1" max="5" id="q01-RS" name="RangeSlider-q01" list="markers" />
+
 
 <datalist id="markers">
   <option value="1" label="Not at all healthy"></option>
