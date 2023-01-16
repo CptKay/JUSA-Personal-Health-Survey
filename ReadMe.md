@@ -7,3 +7,18 @@
 4.start to write a read me and begin the retro first discription
 
 5.Creating the page for the question 
+
+6.Working on page 2 for the radio buttons
+
+7.created radio button with qeustion positioning not as wanted.. working on it
+8.Adding Button
+9. We decide to work on the design in the end so i move on the page for 
+were we decided to use Button
+10.Raw Version page 4 finished
+11.Starting page 6 with input type number
+12.created page 7 with number input field page
+13.created page 8 with number input field page
+14.created page 9 with number input field page
+15.created page 10 with number input field page
+16. We gonna start making the function of the data ready i start with number 2 sammy is on the range structur page number 1 
+17. i figure out that the head is not right code because it has 2 heads because the header is include i will remove the header on the constructed pages 2,4,6,7,8,9,10
