@@ -20,3 +20,5 @@ were we decided to use Button
 13.created page 8 with number input field page
 14.created page 9 with number input field page
 15.created page 10 with number input field page
+16. We gonna start making the function of the data ready i start with number 2 sammy is on the range structur page number 1 
+17. i figure out that the head is not right code because it has 2 heads because the header is include i will remove the header on the constructed pages 2,4,6,7,8,9,10
