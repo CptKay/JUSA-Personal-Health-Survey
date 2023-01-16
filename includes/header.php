@@ -22,13 +22,13 @@
 			<li class="current"><em>Question 1</em></li>
 			<li class="visited" ><a href="question2.php">Question 02</a></li>
             <li class="visited" ><a href="question3.php">Question 03</a></li>
-            <li class="visited" ><a href="question3.php">Question 04</a></li>
-            <li class="visited" ><a href="question4.php">Question 05</a></li>
-            <li class="visited" ><a href="question5.php">Question 06</a></li>
-            <li class="visited" ><a href="question6.php">Question 07</a></li>
-            <li class="visited" ><a href="question7.php">Question 08</a></li>
-            <li class="visited" ><a href="question8.php">Question 09</a></li>
-			<li class="visited"><a href="question8.php">Question 09</a></li>
+            <li class="visited" ><a href="question4.php">Question 04</a></li>
+            <li class="visited" ><a href="question5.php">Question 05</a></li>
+            <li class="visited" ><a href="question6.php">Question 06</a></li>
+            <li class="visited" ><a href="question7.php">Question 07</a></li>
+            <li class="visited" ><a href="question8.php">Question 08</a></li>
+            <li class="visited" ><a href="question9.php">Question 09</a></li>
+			<li class="visited" ><a href="question10.php">Question 09</a></li>
 			<li><em>Evaluation</em></li>
 		</ol>
 	</nav>
