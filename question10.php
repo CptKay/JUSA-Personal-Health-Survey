@@ -24,8 +24,6 @@
 
     <!-- QUESTION -->
     <section>
-        <?php
-        // include "./includes/questions.php";
-        ?>
+        
     </section>
     <!-- END:QUESTION -->

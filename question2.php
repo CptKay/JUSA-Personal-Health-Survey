@@ -23,9 +23,21 @@
     <!-- END:HEADER -->
 
     <!-- QUESTION -->
-    <section>
-        <?php
-        // include "./includes/questions.php";
-        ?>
-    </section>
+<div class="container text-center">
+<h1>Do you take nutritional supplements? </h1>
+
+    <!--Radio Buttons-->
+<div class="container d-flex justify-content-center radio">
+
+<div class="form-check form-check-inline radio">
+  <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1" />
+  <label class="form-check-label" for="inlineRadio1">Yes</label>
+</div>
+
+<div class="form-check form-check-inline">
+  <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2" />
+  <label class="form-check-label" for="inlineRadio2">No</label>
+</div>
+</div>
+</div>
     <!-- END:QUESTION -->

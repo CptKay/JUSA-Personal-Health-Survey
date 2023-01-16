@@ -7,3 +7,7 @@
 4.start to write a read me and begin the retro first discription
 
 5.Creating the page for the question 
+
+6.Working on page 2 for the radio buttons
+
+7.created radio button with qeustion positioning not as wanted.. working on it
