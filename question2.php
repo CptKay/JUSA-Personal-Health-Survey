@@ -1,19 +1,32 @@
-<?php session_start();
-?>
-<?php include 'includes/data-collector.php';
-?>
     <!-- HEADER  -->
     <?php
-    
+    session_start();
     include "./includes/header.php";
     include "./includes/data-collector.php";
     ?>
     
     <!-- END:HEADER -->
 <body>
+<header>
+<nav class="navbar-expand">
+		<ol class="cd-multi-steps text-center custom-icons">
+			<li class="visited"><a href="question1.php">Question 01</a></li>
+			<li class="current" ><em>Question 2</em></li>
+            <li><em>Question 03</em></li>
+            <li><em>Question 04</em></li>
+            <li><em>Question 05</em></li>
+            <li><em>Question 06</em></li>
+            <li><em>Question 07</em></li>
+            <li><em>Question 08</em></li>
+            <li><em>Question 09</em></li>
+			<li<aem>Question 10</aem></li>
+			<li><em>Evaluation</em></li>
+		</ol>
+	</nav>
+</header>
     <!-- QUESTION -->
 <div class="container text-center">
-<form class="form-horizontal" action="result.php" method="post" name="q02" id="q02">
+<form class="form-horizontal" action="question3.php" method="post" name="q02" id="q02">
 <h1 id="">Do you take nutritional supplements? </h1>
 
     <!--Radio Buttons-->

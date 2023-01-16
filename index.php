@@ -3,7 +3,7 @@
     
 <!-- HEADER  -->
     <?php
-    // session_start();
+    session_start();
     session_destroy();
     include "./includes/tools.php";
     include "./includes/header.php";
@@ -12,7 +12,24 @@
     <!-- END:HEADER -->
 
     <body>
+<header>
 
+<nav class="navbar-expand">
+		<ol class="cd-multi-steps text-center custom-icons">
+			<li class="current"><em>Question 1</em></li>
+			<li><em>Question 02</em></li>
+            <li><em>Question 03</em></li>
+            <li><em>Question 04</em></li>
+            <li><em>Question 05</em></li>
+            <li><em>Question 06</em></li>
+            <li><em>Question 07</em></li>
+            <li><em>Question 08</em></li>
+            <li><em>Question 09</em></li>
+			<li<aem>Question 10</aem></li>
+			<li><em>Evaluation</em></li>
+		</ol>
+	</nav>
+</header>
     <!-- QUESTION -->
     <section>
 
