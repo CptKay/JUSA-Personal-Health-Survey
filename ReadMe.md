@@ -15,3 +15,4 @@
 9. We decide to work on the design in the end so i move on the page for 
 were we decided to use Button
 10.Raw Version page 4 finished
+11.Starting page 6 with input type number
