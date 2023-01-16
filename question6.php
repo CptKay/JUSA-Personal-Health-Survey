@@ -38,4 +38,5 @@ meals or snacks contain carbohydrates?:</h1>
     <button class="btn btn-primary" type="submit">Next</button>
 </div>
 </form>
+</body>
     <!-- END:QUESTION -->
