@@ -2,8 +2,9 @@
 ?>
     <!-- HEADER  -->
     <?php
-    include "./includes/tools.php";
+    
     include "./includes/header.php";
+    include "./includes/data-collector.php";
     ?>
     <!-- END:HEADER -->
 <body>
