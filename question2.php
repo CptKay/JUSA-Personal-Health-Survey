@@ -9,7 +9,7 @@
 <body>
     <!-- QUESTION -->
 <div class="container text-center">
-<form class="form-horizontal" action="question2.php" method="post" id="q02">
+<form class="form-horizontal" action="result.php" method="post" id="q02">
 <h1 id="">Do you take nutritional supplements? </h1>
 
     <!--Radio Buttons-->
@@ -27,9 +27,27 @@
 
 </div>
 <div>
-    <button class="btn btn-primary" type="submit" value="submit">Next</button>
+    <button class="btn btn-primary" type="submit" name="submit" value="submit">Next</button>
 </div>
 </form>
+<?php
+ 
+ if(isset($_POST['submit']))
+ {
+ $name1=@trim($_POST['radioButtons']);
+   
+ if($name1=="" ) 
+ {
+ echo "Select first";
+ }
+ else
+ {
+ echo "Correct<br>"; 
+ echo "You have selected :$name1";
+ }
+ }
+  
+ ?>
 </div>
 </body>
     <!-- END:QUESTION -->
