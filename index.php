@@ -5,29 +5,31 @@
 <!-- HEADER  -->
     <?php
     // session_start();
-    session_destroy();
-    include "./includes/tools.php";
+    
+    // include "./includes/tools.php";
     include "./includes/header.php";
     ?>
     <!-- END:HEADER -->
 
     <body>
-
+    <?php
+    session_destroy();
+    ?>
     <!-- QUESTION -->
     <section>
 
     <form action="question2.php" method="post">
-  <div class="mb-3 mt-3">
+  <div class="mb-3 mt-3 text-light">
     <h2><strong>Question 01: </strong>How healthy are you physically?</h2>
 
     <div class="row">
-    <div class="col-sm-3">
+    <div class="col-md-3">
     Not at all healthy
     </div>
-    <div class="col-sm-6">
+    <div class="col-md-6">
       
     </div>
-    <div class="col-sm-3">
+    <div class="col-md-3 text-end">
     Extremely healthy
     </div>
   </div>
