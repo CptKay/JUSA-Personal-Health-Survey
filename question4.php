@@ -80,10 +80,9 @@ weights</label>
 </div>
 <div class="container d-flex justify-content-center radio">
 
-<div class="form-check form-check-inline radio">
-  <input class="form-check-input" type="radio" name="inlineRadioOptions" id="qa2" value="option1" />
-  <label class="form-check-label" for="inlineRadio1">Other</label>
-</div>
+<p>Other:</p>
+        <input type="text">
+
 </div>
 <div>
     <button class="btn btn-primary" type="submit">Next</button>
