@@ -12,3 +12,5 @@
 
 7.created radio button with qeustion positioning not as wanted.. working on it
 8.Adding Button
+9. We decide to work on the design in the end so i move on the page for 
+were we decided to use Button
