@@ -22,7 +22,7 @@
 	</nav>
 </header>
     <!-- QUESTION -->
-    <section>
+    <div class="container text-center">
 
     <form action="question6.php" method="post" onsubmit="return validateRange();">
   <div class="mb-3 mt-3 text-light">
@@ -43,7 +43,7 @@ activity?</h2>
   </div>
   <!-- <label for="q01" class="form-label"><strong>Question 01: </strong>How healthy are you physically?</label> -->
 <input type="hidden" name="questionId" value="q05" />
-<input type="hidden" name="RangeSlider-q05_changed" id="RS_changed">
+<input type="hidden" class="btn-block" name="RangeSlider-q05_changed" id="RS_changed">
 <div>
       <div>
 
@@ -59,7 +59,7 @@ activity?</h2>
 </datalist>
 
   </div>
-  <button type="submit" class="btn btn-primary">Submit</button>
+  <button type="submit" class="btn btn-primary btn-lg mt-5 w-50">Submit</button>
 </form>
         <?php
         // include "./includes/questions.php";
@@ -73,5 +73,5 @@ activity?</h2>
 
 
         ?>
-    </section>
+    </div>
     <!-- END:QUESTION -->
