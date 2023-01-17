@@ -19,5 +19,3 @@ function sliderHasChanged() {
     if (hiddenInputElement.value === "1") return true;
     else return false;
 }
-
-
