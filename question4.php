@@ -81,7 +81,7 @@ weights</label>
 <div class="container d-flex justify-content-center radio">
 
 <p>Other:</p>
-        <input type="text" id="qa2" required>
+        <input type="text" id="qa2">
 
 </div>
 <div>
