@@ -82,20 +82,15 @@ weights</label>
 </div>
 <div class="container d-flex justify-content-center radio">
 
-<p>Other:</p>
-        <input type="text" name="inlineRadioOptions" id="q04">
+
+<input class="form-check-input" type="radio" name="inlineRadioOptions" id="q04" value="other" onchange="EnableDisableTextBoxNext('Other')" />
+  <label class="form-check-label" for="inlineRadio2">Other</label>
+        <input class="m-2" type="text" name="inlineRadioOptions" id="addmoreDetailsOnSelection" disabled="disabled">
 
 </div>
 <div>
     <button class="btn btn-primary btn-lg mt-5 w-50" type="submit">Next</button>
-</div>
-
-<label class="form-check-label"><input type="radio" name="inlineRadioOptions" id="qa2" onchange="EnableDisableTextBoxNext('Other')"> Other</label><br>
-
-
-<br><br>
-<textarea class="form-control" id="addmoreDetailsOnSelection" name="org_rec_comment" disabled="disabled" required placeholder="Only for IP and Other" rows="5"></textarea>
-
+  </div>
 </form>
 </div>
 </body>

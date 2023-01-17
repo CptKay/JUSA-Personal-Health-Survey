@@ -28,3 +28,5 @@ were we decided to use Button
 21.I try to configure the breadcrum however since it is base on a template i had to manually change it from ppage to page
 Template link:https://www.codehim.com/demo/css-cool-breadcrumbs-styles-pack/
 22. Start changeing the buttons and get the page ready for programing codes
+23. We finished the smaller thing and added a hidden input field and restricted number by question 6-10.
+24. we checked the work and saw that the data gets store finished the breadcrumb bar to go back
