@@ -22,16 +22,16 @@
 	</nav>
 </header>
     <!-- QUESTION -->
-    <section>
+    <div class="container text-center">
 
     <form action="question6.php" method="post" onsubmit="return validateRange();">
   <div class="mb-3 mt-3 text-light">
     <h2><strong>Question 05: </strong>Do you feel you do too little, just enough
 or way too much additional physical
 activity?</h2>
-
+<div class="container text-center">
     <div class="row">
-    <div class="col-md-3">
+    <div class="col-md-3 text-start">
     Far too little
     </div>
     <div class="col-md-6 text-center">
@@ -41,25 +41,26 @@ activity?</h2>
     far too much
     </div>
   </div>
+  </div>
   <!-- <label for="q01" class="form-label"><strong>Question 01: </strong>How healthy are you physically?</label> -->
 <input type="hidden" name="questionId" value="q05" />
-<input type="hidden" name="RangeSlider-q05_changed" id="RS_changed">
+<input type="hidden" class="btn-block" name="RangeSlider-q05_changed" id="RS_changed">
 <div>
       <div>
 
   <input type="range" class="form-range" min="1" max="5" id="q05-RS" name="RangeSlider-q05" onchange="sliderChanged();" list="markers" />
 
 
-<datalist id="markers">
-  <option value="1" label="Far too little"></option>
-  <option value="2"></option>
-  <option value="3" label="just right"></option>
-  <option value="4"></option>
-  <option value="5" label="far too much"></option>
-</datalist>
 
+  <option value="1" label=""></option>
+  <option value="2"></option>
+  <option value="3" label=""></option>
+  <option value="4"></option>
+  <option value="5" label=""></option>
+
+</div>
   </div>
-  <button type="submit" class="btn btn-primary">Submit</button>
+  <button type="submit" class="btn btn-primary btn-lg mt-5 w-50">Submit</button>
 </form>
         <?php
         // include "./includes/questions.php";
@@ -73,5 +74,5 @@ activity?</h2>
 
 
         ?>
-    </section>
+    </div>
     <!-- END:QUESTION -->

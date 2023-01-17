@@ -41,7 +41,7 @@ meals or snacks contain carbohydrates?:</h2>
 </datalist>
 </div>
 <div>
-    <button class="btn btn-primary" type="submit">Next</button>
+    <button class="btn btn-primary btn-lg mt-5 w-50" type="submit">Next</button>
 </div>
 </form>
 </body>

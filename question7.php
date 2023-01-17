@@ -34,7 +34,7 @@ meals or snacks contain protein?:</h2>
   <label class="form-label" for="typeNumber">Number input</label>
 </div>
 <div>
-    <button class="btn btn-primary" type="submit">Next</button>
+    <button class="btn btn-primary btn-lg mt-5 w-50" type="submit">Next</button>
 </div>
 </form>
 </body>
