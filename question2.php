@@ -24,18 +24,18 @@
 </header>
     <!-- QUESTION -->
 <div class="container text-center">
-<form class="form-horizontal" action="question3.php" method="post" name="q02" id="q02">
+<form class="form-horizontal text-light" action="question3.php" method="post" name="q02" id="q02">
 <h1 id="">Do you take nutritional supplements? </h1>
 
     <!--Radio Buttons-->
 <div class="container d-flex justify-content-center radio">
 
-<div class="form-check form-check-inline radio">
+<div class="form-check form-check-inline radio text-light">
   <input class="form-check-input" type="radio" name="radioButtons" id="qa2" value="Yes" required/>
   <label class="form-check-label" for="qa1">Yes</label>
 </div>
 
-<div class="form-check form-check-inline">
+<div class="form-check form-check-inline text-light">
   <input class="form-check-input" type="radio" name="radioButtons" id="qa2" value="No" required/>
   <label class="form-check-label" for="qa2">No</label>
 </div>
