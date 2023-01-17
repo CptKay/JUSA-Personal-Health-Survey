@@ -33,6 +33,13 @@ meals are microwaved or prepared?:</h1>
 <input type="hidden" name="questionId" value="q10" />
 <input type="number" min="1" max="5" id="q10-N" name="NumberField-q10" class="form-control" placeholder="Enter up to 5 consumptions" required list="defaultNumbers" />
   <label class="form-label" for="typeNumber">Number input</label>
+  <datalist id="defaultNumbers">
+  <option value="1"></option>
+  <option value="2"></option>
+  <option value="3"></option>
+  <option value="4"></option>
+  <option value="5"></option>
+</datalist>
 </div>
 <div>
     <button class="btn btn-primary btn-lg mt-5 w-50" type="submit">Next</button>

@@ -20,4 +20,14 @@ function sliderHasChanged() {
     else return false;
 }
 
+function EnableDisableTextBoxNext(opt) {
+
+    if (opt=="IP" || opt=="Other" ){
+        document.getElementById("addmoreDetailsOnSelection").disabled = false;
+    }
+    else{
+        document.getElementById("addmoreDetailsOnSelection").disabled = true;
+    }
+}
+
 

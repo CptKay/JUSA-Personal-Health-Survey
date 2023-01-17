@@ -89,6 +89,13 @@ weights</label>
 <div>
     <button class="btn btn-primary btn-lg mt-5 w-50" type="submit">Next</button>
 </div>
+
+<label class="form-check-label"><input type="radio" name="inlineRadioOptions" id="qa2" onchange="EnableDisableTextBoxNext('Other')"> Other</label><br>
+
+
+<br><br>
+<textarea class="form-control" id="addmoreDetailsOnSelection" name="org_rec_comment" disabled="disabled" required placeholder="Only for IP and Other" rows="5"></textarea>
+
 </form>
 </div>
 </body>
