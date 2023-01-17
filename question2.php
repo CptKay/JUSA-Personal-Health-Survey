@@ -1,8 +1,6 @@
     <!-- HEADER  -->
     <?php
-    session_start();
     include "./includes/header.php";
-    include "./includes/data-collector.php";
     ?>
     
     <!-- END:HEADER -->
