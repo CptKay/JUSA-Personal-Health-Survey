@@ -4,6 +4,23 @@
     include "./includes/header.php";
     ?>
     <!-- END:HEADER -->
+    <header>
+    <nav class="navbar-expand">
+		<ol class="cd-multi-steps text-center custom-icons">
+			<li class="visited"><a href="#">Question 01</a></li>
+			<li class="visited"><a href="#">Question 02</a></li>
+            <li class="visited"><a href="#">Question 03</a></li>
+            <li class="visited"><a href="#">Question 04</a></li>
+            <li class="visited"><a href="#">Question 05</a></li>
+            <li class="visited"><a href="#">Question 06</a></li>
+            <li class="current"><em>Question 07</em></li>
+            <li><em>Question 08</em></li>
+            <li><em>Question 09</em></li>
+			<li><em>Question 10</em></li>
+			<li><em>Evaluation</em></li>
+		</ol>
+	</nav>
+</header>
     <body>
     <!-- QUESTION -->
     <div class="container text-center">

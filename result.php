@@ -18,9 +18,6 @@
         Echo "Please slide the Slider Bar and Press Submit.";
         }
 
-
-
-
         ?>
     
 </div>
