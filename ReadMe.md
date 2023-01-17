@@ -24,3 +24,4 @@ were we decided to use Button
 17. i figure out that the head is not right code because it has 2 heads because the header is include i will remove the header on the constructed pages 2,4,6,7,8,9,10
 18.we update a session with chris for the data collector and implementet it
 19.my task will be to make the breadcrumbler implemented with the radio buttons finishing
+20.Sammy will work on the page 3 and 5 with the range button
