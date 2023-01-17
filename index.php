@@ -1,6 +1,3 @@
-
-
-    
 <!-- HEADER  -->
     <?php
 
@@ -58,7 +55,7 @@
   </div>
   <!-- <label for="q01" class="form-label"><strong>Question 01: </strong>How healthy are you physically?</label> -->
 <input type="hidden" name="questionId" value="q01" />
-<input type="hidden" name="RangeSlider-q01_changed" id="q01-RS_changed">
+<input type="hidden" name="RangeSlider-q01_changed" id="RS_changed">
 <div>
       <div>
 
