@@ -14,7 +14,7 @@ $questionId = $_POST["questionId"];
 $_SESSION[$questionId] = $_POST;
 }
 
-prettyPrint($_SESSION);
+/* prettyPrint($_SESSION);
         // Data question 01;
 
         if(isset($_POST["RangeSlider-q01"])){
@@ -22,7 +22,7 @@ prettyPrint($_SESSION);
             // Your Slider value is here.
         } else{
         Echo "Please slide the Slider Bar and Press Submit.";
-        }
+        } */
 
 
         ?>
