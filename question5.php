@@ -29,9 +29,9 @@
     <h2><strong>Question 05: </strong>Do you feel you do too little, just enough
 or way too much additional physical
 activity?</h2>
-
+<div class="container text-center">
     <div class="row">
-    <div class="col-md-3">
+    <div class="col-md-3 text-start">
     Far too little
     </div>
     <div class="col-md-6 text-center">
@@ -57,7 +57,7 @@ activity?</h2>
   <option value="4"></option>
   <option value="5" label="far too much"></option>
 </datalist>
-
+</div>
   </div>
   <button type="submit" class="btn btn-primary btn-lg mt-5 w-50">Submit</button>
 </form>
