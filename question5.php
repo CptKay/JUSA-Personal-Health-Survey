@@ -41,6 +41,7 @@ activity?</h2>
     far too much
     </div>
   </div>
+  </div>
   <!-- <label for="q01" class="form-label"><strong>Question 01: </strong>How healthy are you physically?</label> -->
 <input type="hidden" name="questionId" value="q05" />
 <input type="hidden" class="btn-block" name="RangeSlider-q05_changed" id="RS_changed">
@@ -50,13 +51,13 @@ activity?</h2>
   <input type="range" class="form-range" min="1" max="5" id="q05-RS" name="RangeSlider-q05" onchange="sliderChanged();" list="markers" />
 
 
-<datalist id="markers">
-  <option value="1" label="Far too little"></option>
+
+  <option value="1" label=""></option>
   <option value="2"></option>
-  <option value="3" label="just right"></option>
+  <option value="3" label=""></option>
   <option value="4"></option>
-  <option value="5" label="far too much"></option>
-</datalist>
+  <option value="5" label=""></option>
+
 </div>
   </div>
   <button type="submit" class="btn btn-primary btn-lg mt-5 w-50">Submit</button>

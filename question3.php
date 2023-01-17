@@ -39,7 +39,8 @@
     <div class="col-md-3 text-end">
     Very important
     </div>
-  </div>
+    </div>
+    </div>
   <!-- <label for="q01" class="form-label"><strong>Question 01: </strong>How healthy are you physically?</label> -->
 <input type="hidden" name="questionId" value="q03" />
 <input type="hidden" class="btn-block" name="RangeSlider-q03_changed" id="RS_changed">
@@ -49,13 +50,13 @@
   <input type="range" class="form-range" min="1" max="5" id="q03-RS" name="RangeSlider-q03" onchange="sliderChanged();" list="markers" />
 
 
-<datalist id="markers">
+
   <option value="1" label=""></option>
   <option value="2"></option>
   <option value="3"></option>
   <option value="4"></option>
   <option value="5" label=""></option>
-</datalist>
+
 </div>
   </div>
   <button type="submit" class="btn btn-primary btn-lg mt-5 w-50">Submit</button>
