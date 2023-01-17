@@ -1,6 +1,5 @@
     <!-- HEADER  -->
     <?php
-    include "./includes/tools.php";
     include "./includes/header.php";
     ?>
     <!-- END:HEADER -->
@@ -23,15 +22,15 @@
 </header>
     <body>
     <!-- QUESTION -->
-    <div class="container text-center">
-<form class="form-horizontal" id="q02">
-<h1 id="">On a typical day, how many of your
-meals or snacks contain protein?:</h1>
+    <div class="container text-center text-light">
+<form action="question7.php" method="post" class="form-horizontal" id="q02">
+<h2 id="">On a typical day, how many of your
+meals or snacks contain protein?:</h2>
 
     <!--Radio Buttons-->
 <div class="container d-flex justify-content-center radio">
-
-<input type="number" id="typeNumber" class="form-control" />
+<input type="hidden" name="questionId" value="q07" />
+<input type="number" min="1" max="5" id="typeNumber" class="form-control" placeholder="Enter up to 5 consumptions" required list="defaultNumbers" />
   <label class="form-label" for="typeNumber">Number input</label>
 </div>
 <div>

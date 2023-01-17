@@ -1,6 +1,6 @@
     <!-- HEADER  -->
     <?php
-    include "./includes/tools.php";
+    
     include "./includes/header.php";
     ?>
     <!-- END:HEADER -->
@@ -30,8 +30,8 @@ meals or snacks contain fruit?:</h1>
 
     <!--Radio Buttons-->
 <div class="container d-flex justify-content-center radio">
-
-<input type="number" id="typeNumber" class="form-control" />
+<input type="hidden" name="questionId" value="q09" />
+<input type="number" min="1" max="5" id="typeNumber" class="form-control" placeholder="Enter up to 5 consumptions" required list="defaultNumbers" />
   <label class="form-label" for="typeNumber">Number input</label>
 </div>
 <div>
