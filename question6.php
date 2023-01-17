@@ -30,7 +30,7 @@ meals or snacks contain carbohydrates?:</h2>
     <!--Radio Buttons-->
 <div class="container d-flex justify-content-center radio">
 <input type="hidden" name="questionId" value="q06" />
-<input type="number" min="0" max="5" id="typeNumber" class="form-control" placeholder="Enter up to 5 consumptions" required list="defaultNumbers" />
+<input type="number" min="0" max="5" id="q06-N" name="NumberField-q06" class="form-control" placeholder="Enter up to 5 consumptions" required list="defaultNumbers" />
   <label class="form-label" for="typeNumber">Number input</label>
   <datalist id="defaultNumbers">
   <option value="1"></option>
