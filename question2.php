@@ -31,18 +31,20 @@
 <div class="container d-flex justify-content-center radio">
 
 <div class="form-check form-check-inline radio text-light">
-  <input class="form-check-input" type="radio" name="radioButtons" id="qa2" value="Yes" required/>
-  <label class="form-check-label" for="qa1">Yes</label>
+<input type="hidden" name="questionId" value="q02" />
+  <input class="form-check-input" type="radio" name="radioButtons" id="q02" value="Yes" required/>
+  <label class="form-check-label" for="q02">Yes</label>
 </div>
 
 <div class="form-check form-check-inline text-light">
-  <input class="form-check-input" type="radio" name="radioButtons" id="qa2" value="No" required/>
-  <label class="form-check-label" for="qa2">No</label>
+<!-- <input type="hidden" name="questionId" value="q02b" /> -->
+  <input class="form-check-input" type="radio" name="radioButtons" id="q02" value="No" required/>
+  <label class="form-check-label" for="q02">No</label>
 </div>
 
 </div>
 <div>
-    <button class="btn btn-primary" type="submit" name="submit" value="submit">Next</button>
+    <button class="btn btn-primary" type="submit" name="submit">Next</button>
 </div>
 </form>
 

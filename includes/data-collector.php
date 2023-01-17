@@ -14,7 +14,9 @@ $questionId = $_POST["questionId"];
 $_SESSION[$questionId] = $_POST;
 }
 
-/* prettyPrint($_SESSION);
+prettyPrint($_SESSION);
+
+/* 
         // Data question 01;
 
         if(isset($_POST["RangeSlider-q01"])){
