@@ -19,3 +19,8 @@
 <script src="scripts/validation.js" ></script>
 </head>
 
+
+<<?php
+    session_start();
+    include "./includes/data-collector.php";
+    ?>
