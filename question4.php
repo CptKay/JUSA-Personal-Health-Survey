@@ -33,57 +33,56 @@ do most?</h1>
 <div class="container d-flex justify-content-center radio">
 
 <div class="form-check form-check-inline radio text-light">
-  <input class="form-check-input" type="radio" name="inlineRadioOptions" id="q04" value="No Sport" required/>
+  <input class="form-check-input" type="radio" name="inlineRadioOptions" id="q04" value="1" required/>
   <label class="form-check-label" for="inlineRadio1">No additional physical activity</label>
 </div>
 
 <div class="form-check form-check-inline text-light">
-  <input class="form-check-input" type="radio" name="inlineRadioOptions" id="q04" value="Lifting
-weights" required/>
+  <input class="form-check-input" type="radio" name="inlineRadioOptions" id="q04" value="4" required/>
   <label class="form-check-label" for="inlineRadio2">Lifting
 weights</label>
 </div>
 <div class="form-check form-check-inline text-light">
-  <input class="form-check-input" type="radio" name="inlineRadioOptions" id="q04" value="Walking" required/>
+  <input class="form-check-input" type="radio" name="inlineRadioOptions" id="q04" value="3" required/>
   <label class="form-check-label" for="inlineRadio2">Walking</label>
 </div>
 <div class="form-check form-check-inline text-light">
-  <input class="form-check-input" type="radio" name="inlineRadioOptions" id="q04" value="Jogging" required/>
+  <input class="form-check-input" type="radio" name="inlineRadioOptions" id="q04" value="5" required/>
   <label class="form-check-label" for="inlineRadio2">Jogging</label>
 </div>
 <div class="form-check form-check-inline text-light">
-  <input class="form-check-input" type="radio" name="inlineRadioOptions" id="q04" value="Running" required/>
+  <input class="form-check-input" type="radio" name="inlineRadioOptions" id="q04" value="5" required/>
   <label class="form-check-label" for="inlineRadio2">Running</label>
 </div>
 </div>
 <div class="container d-flex justify-content-center radio">
 
 <div class="form-check form-check-inline radio text-light">
-  <input class="form-check-input" type="radio" name="inlineRadioOptions" id="q04" value="Swimming" required/>
+  <input class="form-check-input" type="radio" name="inlineRadioOptions" id="q04" value="5" required/>
   <label class="form-check-label" for="inlineRadio1">Swimming </label>
 </div>
 
 <div class="form-check form-check-inline text-light">
-  <input class="form-check-input" type="radio" name="inlineRadioOptions" id="q04" value="Dancing" required/>
+  <input class="form-check-input" type="radio" name="inlineRadioOptions" id="q04" value="5" required/>
   <label class="form-check-label" for="inlineRadio2">Dancing</label>
 </div>
 <div class="form-check form-check-inline text-light">
-  <input class="form-check-input" type="radio" name="inlineRadioOptions" id="q04" value="Aerobics" required/>
+  <input class="form-check-input" type="radio" name="inlineRadioOptions" id="q04" value="5" required/>
   <label class="form-check-label" for="inlineRadio2">Aerobics</label>
 </div>
 <div class="form-check form-check-inline text-light">
-  <input class="form-check-input" type="radio" name="inlineRadioOptions" id="q04" value="Pilates" />
+  <input class="form-check-input" type="radio" name="inlineRadioOptions" id="q04" value="5" />
   <label class="form-check-label" for="inlineRadio2">Pilates</label>
 </div>
 <div class="form-check form-check-inline text-light">
-  <input class="form-check-input" type="radio" name="inlineRadioOptions" id="q04" value="Team sports" />
+  <input class="form-check-input" type="radio" name="inlineRadioOptions" id="q04" value="3" />
   <label class="form-check-label" for="inlineRadio2">Team sports</label>
 </div>
 </div>
 <div class="container d-flex justify-content-center radio">
 
 
-<input class="form-check-input" type="radio" name="inlineRadioOptions" id="q04" value="other" onchange="EnableDisableTextBoxNext('Other')" />
+<input class="form-check-input" type="radio" name="inlineRadioOptions" id="q04" value="3" onchange="EnableDisableTextBoxNext('Other')" />
   <label class="form-check-label" for="inlineRadio2">Other</label>
         <input class="m-2" type="text" name="inlineRadioOptions" id="addmoreDetailsOnSelection" disabled="disabled">
 

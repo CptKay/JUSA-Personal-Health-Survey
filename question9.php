@@ -23,7 +23,7 @@
 </header>
     <body>
     <!-- QUESTION -->
-    <div class="container text-center">
+    <div class="container text-center text-light">
 <form form action="question10.php" method="post" class="form-horizontal" id="q02">
 <h1 id="">On a typical day, how many of your
 meals or snacks contain fruit?:</h1>

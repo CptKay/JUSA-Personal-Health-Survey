@@ -30,3 +30,49 @@ Template link:https://www.codehim.com/demo/css-cool-breadcrumbs-styles-pack/
 22. Start changeing the buttons and get the page ready for programing codes
 23. We finished the smaller thing and added a hidden input field and restricted number by question 6-10.
 24. we checked the work and saw that the data gets store finished the breadcrumb bar to go back
+25. we will change question 2 and question 4 with number to have a max number thats possible
+
+Numbers 
+Q1.healthy no = 1
+
+Q2.Healthy yes = 5
+
+Q3.physical activity = 1 (not important)
+
+Q3.physical activity = 5 (important)
+
+Q4.Suplements = 2 (yes Or No)
+
+Q4.No sport = 1
+
+Q4.Lifting weights = 4
+
+Q4.walking = 4
+
+Q4.Jogging = 5
+
+Q4.Running = 5
+
+Q4.Schwimming = 5
+
+Q4.Aerobics = 5
+
+Q4.Pilates = 5
+
+Q4.Team Sport = 3
+
+Q4.Other = 3
+
+Q5.activity far to much = 5
+
+Q5.activity to less = 1
+
+Q6.snacks = 5 when adding 5 is 1 point
+
+Q7.protein = 5 when adding 5 is 1 point
+
+Q8.veggies eaten = 5 
+
+Q9.fruits eaten = 5 
+
+Q10.microwave = 5 when adding 5 is 1 point
