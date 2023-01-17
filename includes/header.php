@@ -14,8 +14,7 @@
     <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700'>
     <link rel="stylesheet" type="text/css" href="styles/style.css">
 
-</head>
-<header>
+
 
 <nav class="navbar-expand">
 		<ol class="cd-multi-steps text-center custom-icons">
@@ -33,3 +32,9 @@
 		</ol>
 	</nav>
 </header>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+<script src="scripts/validation.js" ></script>
+</head>
+
+>>>>>>> abb2a3de3729560b305a8b2f3771330b3f4082bf
