@@ -24,7 +24,7 @@
     <body>
     <!-- QUESTION -->
     <div class="container text-center">
-<form class="form-horizontal" id="q02">
+<form form action="result.php" method="post" class="form-horizontal" id="q02">
 <h1 id="">On a typical day, how many of your
 meals are microwaved or prepared?:</h1>
 

@@ -23,7 +23,7 @@
     <body>
     <!-- QUESTION -->
     <div class="container text-center text-light">
-<form action="question7.php" method="post" class="form-horizontal" id="q02">
+<form action="question8.php" method="post" class="form-horizontal" id="q02">
 <h2 id="">On a typical day, how many of your
 meals or snacks contain protein?:</h2>
 
