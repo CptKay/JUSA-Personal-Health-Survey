@@ -8,8 +8,8 @@
     <header>
     <nav class="navbar-expand">
 		<ol class="cd-multi-steps text-center custom-icons">
-			<li class="visited"><a href="question1.php">Question 01</a></li>
-			<li class="visited"><a href="question2.php">Question 02</a></li>
+			<li class="visited"><a href="#">Question 01</a></li>
+			<li class="visited"><a href="#">Question 02</a></li>
             <li class="current"><em>Question 03</em></li>
             <li><em>Question 04</em></li>
             <li><em>Question 05</em></li>

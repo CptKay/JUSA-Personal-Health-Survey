@@ -28,13 +28,13 @@
 			<li class="visited"><a href="#">Question 02</a></li>
             <li class="visited"><a href="#">Question 03</a></li>
             <li class="visited"><a href="#">Question 04</a></li>
-            <li class="current"><em>Question 05</em></li>
-            <li><em>Question 06</em></li>
-            <li><em>Question 07</em></li>
-            <li><em>Question 08</em></li>
-            <li><em>Question 09</em></li>
-			<li<em>Question 10</em></li>
-			<li><em>Evaluation</em></li>
+            <li class="visited"><a href="#">Question 05</a></li>
+            <li class="visited"><a href="#">Question 06</a></li>
+            <li class="visited"><a href="#">Question 07</a></li>
+            <li class="visited"><a href="#">Question 08</a></li>
+            <li class="visited"><a href="#">Question 09</a></li>
+			<li class="visited"><a href="#">Question 010</a></li>
+			<li class="current"><em>Evaluation</em></li>
 		</ol>
 	</nav>
 </header>

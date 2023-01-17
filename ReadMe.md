@@ -25,3 +25,5 @@ were we decided to use Button
 18.we update a session with chris for the data collector and implementet it
 19.my task will be to make the breadcrumbler implemented with the radio buttons finishing
 20.Sammy will work on the page 3 and 5 with the range button
+21.I try to configure the breadcrum however since it is base on a template i had to manually change it from ppage to page
+Template link:https://www.codehim.com/demo/css-cool-breadcrumbs-styles-pack/
