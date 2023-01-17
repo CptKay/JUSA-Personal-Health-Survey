@@ -1,10 +1,9 @@
-<?php session_start();
-?>
+
 <?php include 'includes/data-collector.php';
 ?>
     <!-- HEADER  -->
     <?php
-    include "./includes/tools.php";
+    
     include "./includes/header.php";
     ?>
     
@@ -19,12 +18,12 @@
 <div class="container d-flex justify-content-center radio">
 
 <div class="form-check form-check-inline radio">
-  <input class="form-check-input" type="radio" name="radioButtons" id="qa2" value="Yes" />
+  <input class="form-check-input" type="radio" name="radioButtons" id="qa2" value="Yes" required/>
   <label class="form-check-label" for="qa1">Yes</label>
 </div>
 
 <div class="form-check form-check-inline">
-  <input class="form-check-input" type="radio" name="radioButtons" id="qa2" value="No" />
+  <input class="form-check-input" type="radio" name="radioButtons" id="qa2" value="No" required/>
   <label class="form-check-label" for="qa2">No</label>
 </div>
 

@@ -7,7 +7,7 @@
     <body>
     <!-- QUESTION -->
 <div class="container text-center">
-<form class="form-horizontal" id="q02">
+<form class="form-horizontal" id="q02" >
 <h1 id="">What additional physical activity do you
 do most?</h1>
 
@@ -15,41 +15,41 @@ do most?</h1>
 <div class="container d-flex justify-content-center radio">
 
 <div class="form-check form-check-inline radio">
-  <input class="form-check-input" type="radio" name="inlineRadioOptions" id="qa2" value="option1" />
+  <input class="form-check-input" type="radio" name="inlineRadioOptions" id="qa2" value="option1" required/>
   <label class="form-check-label" for="inlineRadio1">No additional physical activity</label>
 </div>
 
 <div class="form-check form-check-inline">
-  <input class="form-check-input" type="radio" name="inlineRadioOptions" id="qa2" value="option2" />
+  <input class="form-check-input" type="radio" name="inlineRadioOptions" id="qa2" value="option2" required/>
   <label class="form-check-label" for="inlineRadio2">Lifting
 weights</label>
 </div>
 <div class="form-check form-check-inline">
-  <input class="form-check-input" type="radio" name="inlineRadioOptions" id="qa2" value="option2" />
+  <input class="form-check-input" type="radio" name="inlineRadioOptions" id="qa2" value="option2" required/>
   <label class="form-check-label" for="inlineRadio2">Walking</label>
 </div>
 <div class="form-check form-check-inline">
-  <input class="form-check-input" type="radio" name="inlineRadioOptions" id="qa2" value="option2" />
+  <input class="form-check-input" type="radio" name="inlineRadioOptions" id="qa2" value="option2" required/>
   <label class="form-check-label" for="inlineRadio2">Jogging</label>
 </div>
 <div class="form-check form-check-inline">
-  <input class="form-check-input" type="radio" name="inlineRadioOptions" id="qa2" value="option2" />
+  <input class="form-check-input" type="radio" name="inlineRadioOptions" id="qa2" value="option2" required/>
   <label class="form-check-label" for="inlineRadio2">Running</label>
 </div>
 </div>
 <div class="container d-flex justify-content-center radio">
 
 <div class="form-check form-check-inline radio">
-  <input class="form-check-input" type="radio" name="inlineRadioOptions" id="qa2" value="option1" />
+  <input class="form-check-input" type="radio" name="inlineRadioOptions" id="qa2" value="option1" required/>
   <label class="form-check-label" for="inlineRadio1">Swimming </label>
 </div>
 
 <div class="form-check form-check-inline">
-  <input class="form-check-input" type="radio" name="inlineRadioOptions" id="qa2" value="option2" />
+  <input class="form-check-input" type="radio" name="inlineRadioOptions" id="qa2" value="option2" required/>
   <label class="form-check-label" for="inlineRadio2">Dancing</label>
 </div>
 <div class="form-check form-check-inline">
-  <input class="form-check-input" type="radio" name="inlineRadioOptions" id="qa2" value="option2" />
+  <input class="form-check-input" type="radio" name="inlineRadioOptions" id="qa2" value="option2" required/>
   <label class="form-check-label" for="inlineRadio2">Aerobics</label>
 </div>
 <div class="form-check form-check-inline">
@@ -64,7 +64,7 @@ weights</label>
 <div class="container d-flex justify-content-center radio">
 
 <p>Other:</p>
-        <input type="text">
+        <input type="text" id="qa2" required>
 
 </div>
 <div>
