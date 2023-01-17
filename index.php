@@ -41,7 +41,7 @@
     <!-- QUESTION -->
     <section>
 
-    <form action="question2.php" method="post">
+    <form action="question2.php" method="post" onsubmit="return validateRange();">
   <div class="mb-3 mt-3 text-light">
     <h2><strong>Question 01: </strong>How healthy are you physically?</h2>
 
@@ -58,10 +58,11 @@
   </div>
   <!-- <label for="q01" class="form-label"><strong>Question 01: </strong>How healthy are you physically?</label> -->
 <input type="hidden" name="questionId" value="q01" />
+<input type="hidden" name="RangeSlider-q01_changed" id="q01-RS_changed">
 <div>
       <div>
 
-  <input type="range" class="form-range" min="1" max="5" id="q01-RS" name="RangeSlider-q01" list="markers" />
+  <input type="range" class="form-range" min="1" max="5" id="q01-RS" name="RangeSlider-q01" onchange="sliderChanged();" list="markers" />
 
 
 <datalist id="markers">
