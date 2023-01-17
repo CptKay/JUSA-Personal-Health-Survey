@@ -32,6 +32,13 @@ meals or snacks contain protein?:</h2>
 <input type="hidden" name="questionId" value="q07" />
 <input type="number" min="1" max="5" id="q07-N" name="NumberField-q07" class="form-control" placeholder="Enter up to 5 consumptions" required list="defaultNumbers" />
   <label class="form-label" for="typeNumber">Number input</label>
+  <datalist id="defaultNumbers">
+  <option value="1"></option>
+  <option value="2"></option>
+  <option value="3"></option>
+  <option value="4"></option>
+  <option value="5"></option>
+</datalist>
 </div>
 <div>
     <button class="btn btn-primary" type="submit">Next</button>
