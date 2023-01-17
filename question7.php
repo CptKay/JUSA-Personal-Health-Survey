@@ -30,7 +30,7 @@ meals or snacks contain protein?:</h2>
     <!--Radio Buttons-->
 <div class="container d-flex justify-content-center radio">
 <input type="hidden" name="questionId" value="q07" />
-<input type="number" min="1" max="5" id="typeNumber" class="form-control" placeholder="Enter up to 5 consumptions" required list="defaultNumbers" />
+<input type="number" min="1" max="5" id="q07-N" name="NumberField-q07" class="form-control" placeholder="Enter up to 5 consumptions" required list="defaultNumbers" />
   <label class="form-label" for="typeNumber">Number input</label>
 </div>
 <div>
