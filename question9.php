@@ -16,7 +16,7 @@
             <li class="visited"><a href="#">Question 07</a></li>
             <li class="visited"><a href="#">Question 08</a></li>
             <li class="current"><em>Question 09</em></li>
-			<li<em>Question 10</em></li>
+			<li><em>Question 10</em></li>
 			<li><em>Evaluation</em></li>
 		</ol>
 	</nav>
