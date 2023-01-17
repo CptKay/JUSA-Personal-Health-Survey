@@ -27,7 +27,7 @@
 
     <form action="question6.php" method="post" onsubmit="return validateRange();">
   <div class="mb-3 mt-3 text-light">
-    <h2><strong>Question 03: </strong>Do you feel you do too little, just enough
+    <h2><strong>Question 05: </strong>Do you feel you do too little, just enough
 or way too much additional physical
 activity?</h2>
 
