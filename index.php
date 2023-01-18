@@ -61,12 +61,12 @@ include "./includes/header.php";
           <div>
 
             <input type="range" class="form-range" min="1" max="5" id="q01-RS" name="RangeSlider-q01" onchange="sliderChanged();" list="markers" />
-              <option value="1" label=""></option>
-              <option value="2"></option>
-              <option value="3"></option>
-              <option value="4"></option>
-              <option value="5" label=""></option>
-            
+            <option value="1" label=""></option>
+            <option value="2"></option>
+            <option value="3"></option>
+            <option value="4"></option>
+            <option value="5" label=""></option>
+
 
           </div>
         </div>

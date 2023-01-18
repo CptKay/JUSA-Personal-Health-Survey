@@ -35,13 +35,13 @@ Template link:https://www.codehim.com/demo/css-cool-breadcrumbs-styles-pack/
 Numbers 
 Q1.healthy no = 1
 
-Q2.Healthy yes = 5
+Q1.Healthy yes = 5
 
-Q3.physical activity = 1 (not important)
+Q2.physical activity = 1 (not important)
 
-Q3.physical activity = 5 (important)
+Q2.physical activity = 5 (important)
 
-Q4.Suplements = 2 (yes Or No)
+Q3.Suplements = 2 (yes Or No)
 
 Q4.No sport = 1
 
@@ -76,3 +76,12 @@ Q8.veggies eaten = 5
 Q9.fruits eaten = 5 
 
 Q10.microwave = 5 when adding 5 is 1 point
+
+max points healty = 47
+min points healty = 10
+
+26. i found a description and will try it out to sum the result
+link:https://stackoverflow.com/questions/48164167/php-arrays-in-array-sum-value-by-specific-key
+
+27. there was a message about that no variable was define
+28. i try to add a variable
