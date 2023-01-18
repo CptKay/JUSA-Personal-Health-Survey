@@ -83,9 +83,19 @@ min points healty = 10
 26. i found a description and will try it out to sum the result
 link:https://stackoverflow.com/questions/48164167/php-arrays-in-array-sum-value-by-specific-key
 
+
 27. there was a message about that no variable was define
 28. i try to add a variable
 29. it seems to work
 30. fail :Fatal error: Uncaught TypeError: Unsupported operand types: int + string 
 31. As i try to get access to the answer value i complete failed by forgetting that it is all in th $_SESSION. 
 33. Reading about the filter things in the session.
+34. playing around with methods from links like
+(1.:https://stackoverflow.com/questions/59721589/php-array-sum-values
+2.:https://stackoverflow.com/questions/16138395/sum-values-of-multidimensional-array-by-key-without-loop
+3.:https://stackoverflow.com/questions/13693840/find-sum-of-all-keys-in-session-array)
+the third instruction and the hint of sven helped out.
+
+35. Save the working function and move on to the next make it look good!
+
+36. I wished we could play more around with the php option of validating but there was not enough time for that need to spend more houres in my study time. 

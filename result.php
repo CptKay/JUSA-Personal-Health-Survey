@@ -56,49 +56,17 @@
         Echo "Please slide the Slider Bar and Press Submit.";
         } */
 
-// Creating a array
-$array = array($_SESSION);
-
-// sum up the variable
-$sum = 0;
-
-// Counting result of variable
-    if (isset($array) && !is_null($array)) {
-    foreach ($_SESSION as $session) {
-        if (isset($question['q01']) && is_numeric($question['q01'])) {
-            $sum += $question['q01'];
+        $sum = 0;
+        if(isset($_SESSION)){
+            foreach($_SESSION as $question){
+                if(isset($question['answer']) && is_numeric($question['answer'])){
+                    $sum += $question['answer'];
+                }
+            }
+            echo $sum;
         }
-        if (isset($question['q02']) && is_numeric($question['q02'])) {
-            $sum += $question['q02'];
-        }
-        if (isset($question['q03']) && is_numeric($question['q03'])) {
-            $sum += $question['q03'];
-        }
-        if (isset($question['q04']) && is_numeric($question['q04'])) {
-            $sum += $question['q04'];
-        }
-        if (isset($question['q05']) && is_numeric($question['q05'])) {
-            $sum += $question['q05'];
-        }
-        if (isset($question['q06']) && is_numeric($question['q06'])) {
-            $sum += $question['q06'];
-        }
-        if (isset($question['q07']) && is_numeric($question['q07'])) {
-            $sum += $question['q07'];
-        }
-        if (isset($question['q08']) && is_numeric($question['q08'])) {
-            $sum += $question['q08'];
-        }
-        if (isset($question['q09']) && is_numeric($question['q09'])) {
-            $sum += $question['q09'];
-        }
-        if (isset($question['q10']) && is_numeric($question['q10'])) {
-            $sum += $question['q10'];
-        }
-    }
-    echo $sum;
-}
-    if ($sum > 30) {
+        
+    if ($sum < 30) {
         echo "We have the Right Program for you Beginner fitness!
         <br>
         <h2>You are not Healthy</h2>
@@ -107,7 +75,7 @@ $sum = 0;
         <br>
         <br>";
     }
-    if ($sum < 30) {
+    if ($sum > 30) {
         echo "We have the Right Program for you Advance fitness!
         <br>
         <h2>You are Healthy</h2>
