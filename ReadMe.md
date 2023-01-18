@@ -85,3 +85,7 @@ link:https://stackoverflow.com/questions/48164167/php-arrays-in-array-sum-value-
 
 27. there was a message about that no variable was define
 28. i try to add a variable
+29. it seems to work
+30. fail :Fatal error: Uncaught TypeError: Unsupported operand types: int + string 
+31. As i try to get access to the answer value i complete failed by forgetting that it is all in th $_SESSION. 
+33. Reading about the filter things in the session.

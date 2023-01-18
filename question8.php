@@ -32,7 +32,7 @@ meals or snacks contain vegetables?:</h1>
     <!--Radio Buttons-->
 <div class="container d-flex justify-content-center radio">
 <input type="hidden" name="questionId" value="q08" />
-<input type="number" min="1" max="5" id="q08-N" name="NumberField-q08" class="form-control" placeholder="Enter up to 5 consumptions" required list="defaultNumbers" />
+<input type="number" min="1" max="5" id="q08-N" name="answer" class="form-control" placeholder="Enter up to 5 consumptions" required list="defaultNumbers" />
   <label class="form-label" for="typeNumber">Number input</label>
   <datalist id="defaultNumbers">
   <option value="1"></option>

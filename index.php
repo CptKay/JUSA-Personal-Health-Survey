@@ -56,11 +56,11 @@ include "./includes/header.php";
         </div>
         <!-- <label for="q01" class="form-label"><strong>Question 01: </strong>How healthy are you physically?</label> -->
         <input type="hidden" name="questionId" value="q01" />
-        <input type="hidden" class="btn-block" name="RangeSlider-q01_changed" id="RS_changed">
+        <input type="hidden" class="btn-block" name="answer_changed" id="RS_changed">
         <div>
           <div>
 
-            <input type="range" class="form-range" min="1" max="5" id="q01-RS" name="RangeSlider-q01" onchange="sliderChanged();" list="markers" />
+            <input type="range" class="form-range" min="1" max="5" id="q01-RS" name="answer" onchange="sliderChanged();" list="markers" />
             <option value="1" label=""></option>
             <option value="2"></option>
             <option value="3"></option>

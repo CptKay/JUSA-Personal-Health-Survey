@@ -33,57 +33,57 @@ do most?</h1>
 <div class="container d-flex justify-content-center justify-content-between radio">
 
 <div class="form-check form-check-inline radio text-light">
-  <input class="form-check-input" type="radio" name="inlineRadioOptions" id="q04" value="1" required/>
-  <label class="form-check-label" for="inlineRadio1">No additional physical activity</label>
+  <input class="form-check-input" type="radio" name="answer" id="q04" value="1" required/>
+  <label class="form-check-label" for="inlineRadio2">No additional physical activity</label>
 </div>
 
 <div class="form-check form-check-inline text-light">
-  <input class="form-check-input" type="radio" name="inlineRadioOptions" id="q04" value="4" required/>
+  <input class="form-check-input" type="radio" name="answer" id="q04" value="4" required/>
   <label class="form-check-label" for="inlineRadio2">Lifting
 weights</label>
 </div>
 <div class="form-check form-check-inline text-light">
-  <input class="form-check-input" type="radio" name="inlineRadioOptions" id="q04" value="3" required/>
+  <input class="form-check-input" type="radio" name="answer" id="q04" value="3" required/>
   <label class="form-check-label" for="inlineRadio2">Walking</label>
 </div>
 <div class="form-check form-check-inline text-light">
-  <input class="form-check-input" type="radio" name="inlineRadioOptions" id="q04" value="5" required/>
+  <input class="form-check-input" type="radio" name="answer" id="q04" value="5" required/>
   <label class="form-check-label" for="inlineRadio2">Jogging</label>
 </div>
 <div class="form-check form-check-inline text-light">
-  <input class="form-check-input" type="radio" name="inlineRadioOptions" id="q04" value="5" required/>
+  <input class="form-check-input" type="radio" name="answer" id="q04" value="5" required/>
   <label class="form-check-label" for="inlineRadio2">Running</label>
 </div>
 
 
 <div class="form-check form-check-inline radio text-light">
-  <input class="form-check-input" type="radio" name="inlineRadioOptions" id="q04" value="5" required/>
+  <input class="form-check-input" type="radio" name="answer" id="q04" value="5" required/>
   <label class="form-check-label" for="inlineRadio1">Swimming </label>
 </div>
 
 <div class="form-check form-check-inline text-light">
-  <input class="form-check-input" type="radio" name="inlineRadioOptions" id="q04" value="5" required/>
+  <input class="form-check-input" type="radio" name="answer" id="q04" value="5" required/>
   <label class="form-check-label" for="inlineRadio2">Dancing</label>
 </div>
 <div class="form-check form-check-inline text-light">
-  <input class="form-check-input" type="radio" name="inlineRadioOptions" id="q04" value="5" required/>
+  <input class="form-check-input" type="radio" name="answer" id="q04" value="5" required/>
   <label class="form-check-label" for="inlineRadio2">Aerobics</label>
 </div>
 <div class="form-check form-check-inline text-light">
-  <input class="form-check-input" type="radio" name="inlineRadioOptions" id="q04" value="5" />
+  <input class="form-check-input" type="radio" name="answer" id="q04" value="5" />
   <label class="form-check-label" for="inlineRadio2">Pilates</label>
 </div>
 <div class="form-check form-check-inline text-light">
-  <input class="form-check-input" type="radio" name="inlineRadioOptions" id="q04" value="3" />
+  <input class="form-check-input" type="radio" name="answer" id="q04" value="3" />
   <label class="form-check-label" for="inlineRadio2">Team sports</label>
 </div>
 </div>
 <div class="container d-flex justify-content-center radio">
 
 
-<input class="form-check-input" type="radio" name="inlineRadioOptions" id="q04" value="3" onchange="EnableDisableTextBoxNext('Other')" />
+<input class="form-check-input" type="radio" name="answer" id="q04" value="3" onchange="EnableDisableTextBoxNext('Other')" />
   <label class="form-check-label" for="inlineRadio2">Other</label>
-        <input class="m-2" type="text" name="inlineRadioOptions" id="addmoreDetailsOnSelection" disabled="disabled">
+        <input class="m-2" type="text" name="answer" id="addmoreDetailsOnSelection" disabled="disabled">
 
 </div>
 <div>
