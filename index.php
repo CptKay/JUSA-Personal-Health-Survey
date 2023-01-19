@@ -32,15 +32,15 @@ include "./includes/header.php";
         <h2><strong>Question 01: </strong>How healthy are you physically?</h2>
         <div class="container text-center">
           <div class="row">
-            <div class="col-md-3 text-start">
+            <div class="col text-start">
               Not at all healthy
             </div>
-            <div class="col-md-6">
+            <div class="col text-center">
             </div>
-            <div class="col-md-3 text-end">
+            <div class="col text-end">
               Extremely healthy
             </div>
-          </div>
+  
         </div>
         <!-- <label for="q01" class="form-label"><strong>Question 01: </strong>How healthy are you physically?</label> -->
         <input type="hidden" name="questionId" value="q01" />
@@ -55,7 +55,7 @@ include "./includes/header.php";
             <option value="5" label=""></option>
           </div>
         </div>
-        <button type="submit" class="btn btn-primary btn-lg mt-5 w-50">Submit</button>
+        <button type="submit" class="btn btn-primary btn-lg mt-5 w-50">Next</button>
     </form>
     <!-- END:QUESTION -->
 </body>

@@ -26,18 +26,19 @@ include "./includes/header.php";
     <form action="question4.php" method="post" onsubmit="return validateRange();">
       <div class="mb-3 mt-3 text-light">
         <h2><strong>Question 03: </strong>How important is physical activity to you?</h2>
-        <div class="container text-center">
+        
           <div class="row">
-            <div class="col-md-3 text-start">
+            <div class="col text-start">
               Not at all important
             </div>
-            <div class="col-md-6">
+            <div class="col">
             </div>
-            <div class="col-md-3 text-end">
+            <div class="col text-end">
               Very important
             </div>
           </div>
-        </div>
+        
+</div>
         <!-- <label for="q01" class="form-label"><strong>Question 01: </strong>How healthy are you physically?</label> -->
         <input type="hidden" name="questionId" value="q03" />
         <input type="hidden" class="btn-block" name="answer_changed" id="RS_changed">
@@ -51,7 +52,7 @@ include "./includes/header.php";
             <option value="5" label=""></option>
           </div>
         </div>
-        <button type="submit" class="btn btn-primary btn-lg mt-5 w-50">Submit</button>
+        <button type="submit" class="btn btn-primary btn-lg mt-5 w-50">Next</button>
     </form>
   </div>
   <!-- END:QUESTION -->

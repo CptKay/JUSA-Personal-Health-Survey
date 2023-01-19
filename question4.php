@@ -84,7 +84,7 @@
               <div class="form-check col-3">
                 <input class="form-check-input" type="radio" name="answer" id="q04" value="3" onchange="EnableDisableTextBoxNext('Other')" />
                 <label class="form-check-label" for="inlineRadio2">Other
-                <input class="col" type="text" name="answer" id="addmoreDetailsOnSelection" disabled="disabled">
+                <input class="col" type="text" id="addmoreDetailsOnSelection" disabled="disabled">
                 </label>
               </div>
             </div>
