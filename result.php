@@ -52,8 +52,6 @@
                     $sum += $question['answer'];
                 }
             }
-            echo $sum;
-        }
         /* this show the option according to the result */
     if ($sum < 30) {
         echo "We have the Right Program for you Beginner fitness!
@@ -74,6 +72,7 @@
         <br>";
         
     }
+}
         ?>
 </h1>
 </div>
