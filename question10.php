@@ -27,7 +27,7 @@
     <div class="container text-center text-light">
 <form form action="result.php" method="post" class="form-horizontal" id="q02">
 <h1 id="">On a typical day, how many of your
-meals are microwaved or prepared?:</h1>
+meals are microwaved or prepared?</h1>
 
     <!--Radio Buttons-->
 <div class="container d-flex justify-content-center radio">

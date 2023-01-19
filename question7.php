@@ -27,7 +27,7 @@
     <div class="container text-center text-light">
 <form action="question8.php" method="post" class="form-horizontal" id="q02">
 <h2 id="">On a typical day, how many of your
-meals or snacks contain protein?:</h2>
+meals or snacks contain protein?</h2>
 
     <!--Radio Buttons-->
 <div class="container d-flex justify-content-center radio">

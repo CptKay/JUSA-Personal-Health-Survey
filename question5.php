@@ -26,9 +26,9 @@ include "./includes/header.php";
   <div class="container text-center">
     <form action="question6.php" method="post" onsubmit="return validateRange();">
       <div class="mb-3 mt-3 text-light">
-        <h2><strong>Question 05: </strong>Do you feel you do too little, just enough
+        <h1>Do you feel you do too little, just enough
           or way too much additional physical
-          activity?</h2>
+          activity?</h1>
         <div class="container text-center">
           <div class="row">
             <div class="col text-start">

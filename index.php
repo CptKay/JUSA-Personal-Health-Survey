@@ -29,7 +29,7 @@ include "./includes/header.php";
   <div class="container text-center">
     <form action="question2.php" method="post" onsubmit="return validateRange();">
       <div class="mb-3 mt-3 text-light">
-        <h2><strong>Question 01: </strong>How healthy are you physically?</h2>
+        <h1>How healthy are you physically?</h1>
         <div class="container text-center">
           <div class="row">
             <div class="col text-start">

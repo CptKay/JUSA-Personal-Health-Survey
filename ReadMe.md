@@ -104,3 +104,6 @@ the third instruction and the hint of sven helped out.
 38. we are working on the responsive samy is working on the code for the breadcrumb so we could actullay put in the head. so it wouldnt be manual
 Jules is working on page 4 radio buttion responsive .
 39. Jules Is working now on the responsive from page 5
+40. Pgae 5 responsive
+41. creating button at the result page to start again
+42.the question section is identical now

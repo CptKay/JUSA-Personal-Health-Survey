@@ -25,7 +25,7 @@ include "./includes/header.php";
   <div class="container text-center">
     <form action="question4.php" method="post" onsubmit="return validateRange();">
       <div class="mb-3 mt-3 text-light">
-        <h2><strong>Question 03: </strong>How important is physical activity to you?</h2>
+        <h1>How important is physical activity to you?</h1>
         
           <div class="row">
             <div class="col text-start">
