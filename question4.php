@@ -76,15 +76,16 @@
               </div>
             </div>
             <div class="row">
-              <div class="form-check col">
+              <div class="form-check col-1">
                 <input class="form-check-input" type="radio" name="answer" id="q04" value="3" required />
                 <label class="form-check-label" for="inlineRadio2">Team sports</label>
               </div>
               <div class="row">
-              <div class="form-check col">
+              <div class="form-check col-3">
                 <input class="form-check-input" type="radio" name="answer" id="q04" value="3" onchange="EnableDisableTextBoxNext('Other')" />
-                <label class="form-check-label" for="inlineRadio2">Other</label>
-                <input class="m-2" type="text" name="answer" id="addmoreDetailsOnSelection" disabled="disabled">
+                <label class="form-check-label" for="inlineRadio2">Other
+                <input class="col" type="text" name="answer" id="addmoreDetailsOnSelection" disabled="disabled">
+                </label>
               </div>
             </div>
             <div>
