@@ -40,7 +40,6 @@ include "./includes/header.php";
             <div class="col text-end">
               Extremely healthy
             </div>
-  
         </div>
         <!-- <label for="q01" class="form-label"><strong>Question 01: </strong>How healthy are you physically?</label> -->
         <input type="hidden" name="questionId" value="q01" />

@@ -22,15 +22,12 @@
         </nav>
       </header>
       <!-- END:HEADER -->
-
-
       <!-- QUESTION -->
       <div class="container justify-content-center  justify-content-between text-center text-light">
         <form class="form-check form-horizontal" action="question5.php" method="post" name="q04" id="q04">
           <input type="hidden" name="questionId" value="q04" />
           <h1 id="">What additional physical activity do you
             do most?</h1>
-
           <!--Radio Buttons-->
           <div class="form-check form-check-inline form-horizontal">
             <div class="row">
@@ -81,18 +78,18 @@
                 <label class="form-check-label" for="inlineRadio2">Team sports</label>
               </div>
               <div class="row">
-              <div class="form-check col-3">
-                <input class="form-check-input" type="radio" name="answer" id="q04" value="3" onchange="EnableDisableTextBoxNext('Other')" />
-                <label class="form-check-label" for="inlineRadio2">Other
-                <input class="col" type="text" id="addmoreDetailsOnSelection" disabled="disabled">
-                <input class="col" type="hidden" name="answer" id="addmoreDetailsOnSelection" value="3">
-                </label>
+                <div class="form-check col-3">
+                  <input class="form-check-input" type="radio" name="answer" id="q04" value="3" onchange="EnableDisableTextBoxNext('Other')" />
+                  <label class="form-check-label" for="inlineRadio2">Other
+                    <input class="col" type="text" id="addmoreDetailsOnSelection" disabled="disabled">
+                    <input class="col" type="hidden" name="answer" id="addmoreDetailsOnSelection" value="3">
+                  </label>
+                </div>
+              </div>
+              <div>
+                <button class="btn btn-primary btn-lg mt-5 w-50" type="submit">Next</button>
               </div>
             </div>
-            <div>
-              <button class="btn btn-primary btn-lg mt-5 w-50" type="submit">Next</button>
-            </div>
-          </div>
         </form>
       </div>
     </body>
