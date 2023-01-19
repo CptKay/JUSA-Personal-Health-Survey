@@ -1,9 +1,10 @@
-    <!-- HEADER  -->
+    
     <?php
     
     include "./includes/header.php";
     ?>
-    <!-- END:HEADER -->
+    <body>
+    <!-- HEADER  -->
     <header>
     <nav class="navbar-expand">
 		<ol class="cd-multi-steps text-center custom-icons">
@@ -21,8 +22,8 @@
 		</ol>
 	</nav>
 </header>
-    <body>
-    <!-- QUESTION -->
+<!-- END:HEADER -->
+        <!-- QUESTION -->
     <div class="container text-center text-light">
 <form form action="result.php" method="post" class="form-horizontal" id="q02">
 <h1 id="">On a typical day, how many of your

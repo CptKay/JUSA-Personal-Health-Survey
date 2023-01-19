@@ -99,3 +99,5 @@ the third instruction and the hint of sven helped out.
 35. Save the working function and move on to the next make it look good!
 
 36. I wished we could play more around with the php option of validating but there was not enough time for that need to spend more houres in my study time. 
+
+37. im trying to clean the code without breaking the php function.

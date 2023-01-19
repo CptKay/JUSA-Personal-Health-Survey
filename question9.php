@@ -1,9 +1,9 @@
-    <!-- HEADER  -->
-    <?php
     
+    <?php
     include "./includes/header.php";
     ?>
-    <!-- END:HEADER -->
+<body>
+    <!-- HEADER  -->
     <header>
     <nav class="navbar-expand">
 		<ol class="cd-multi-steps text-center custom-icons">
@@ -21,7 +21,8 @@
 		</ol>
 	</nav>
 </header>
-    <body>
+<!-- END:HEADER -->
+    
     <!-- QUESTION -->
     <div class="container text-center text-light">
 <form form action="question10.php" method="post" class="form-horizontal" id="q02">
