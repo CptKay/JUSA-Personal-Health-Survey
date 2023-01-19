@@ -75,6 +75,10 @@
 }
         ?>
 </h1>
+<div>
+    <button class="btn btn-primary btn-lg mt-5 w-50" type="button" onclick="location.href='index.php'">Exit</button>
+</div>
+
 </div>
 </body>
         
