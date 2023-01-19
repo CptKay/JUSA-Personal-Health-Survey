@@ -15,7 +15,9 @@ $_SESSION[$questionId] = $_POST;
 }
 
 prettyPrint($_SESSION);
+    //print_r($_SESSION['q01']['answer_changed']);
 
+    
 /* 
         // Data question 01;
 

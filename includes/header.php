@@ -19,7 +19,7 @@
 </head>
 
 
-<<?php
+<?php
     session_start();
     include "./includes/data-collector.php";
     ?>
