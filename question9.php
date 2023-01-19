@@ -1,9 +1,9 @@
-    <!-- HEADER  -->
-    <?php
     
+    <?php
     include "./includes/header.php";
     ?>
-    <!-- END:HEADER -->
+<body>
+    <!-- HEADER  -->
     <header>
     <nav class="navbar-expand">
 		<ol class="cd-multi-steps text-center custom-icons">
@@ -21,12 +21,13 @@
 		</ol>
 	</nav>
 </header>
-    <body>
+<!-- END:HEADER -->
+    
     <!-- QUESTION -->
     <div class="container text-center text-light">
 <form form action="question10.php" method="post" class="form-horizontal" id="q02">
 <h1 id="">On a typical day, how many of your
-meals or snacks contain fruit?:</h1>
+meals or snacks contain fruit?</h1>
 
     <!--Radio Buttons-->
 <div class="container d-flex justify-content-center radio">

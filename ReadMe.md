@@ -99,3 +99,12 @@ the third instruction and the hint of sven helped out.
 35. Save the working function and move on to the next make it look good!
 
 36. I wished we could play more around with the php option of validating but there was not enough time for that need to spend more houres in my study time. 
+
+37. im trying to clean the code without breaking the php function.
+38. we are working on the responsive samy is working on the code for the breadcrumb so we could actullay put in the head. so it wouldnt be manual
+Jules is working on page 4 radio buttion responsive .
+39. Jules Is working now on the responsive from page 5
+40. Pgae 5 responsive
+41. creating button at the result page to start again
+42.the question section is identical now
+43.There many stuff we didnt get to work as we want it to so i concider this version as a prototyp

@@ -1,23 +1,13 @@
-<!-- HEADER  -->
 <?php
-
-// session_start();
-
-// include "./includes/tools.php";
-
 include "./includes/header.php";
 ?>
 
-<!-- END:HEADER -->
-
 <body>
-
   <?php
   session_destroy();
   ?>
-
+  <!-- HEADER  -->
   <header>
-
     <nav class="navbar-expand">
       <ol class="cd-multi-steps text-center custom-icons">
         <li class="current"><em>Question 1</em></li>
@@ -34,61 +24,38 @@ include "./includes/header.php";
       </ol>
     </nav>
   </header>
-
+  <!-- END:HEADER -->
   <!-- QUESTION -->
-
   <div class="container text-center">
     <form action="question2.php" method="post" onsubmit="return validateRange();">
       <div class="mb-3 mt-3 text-light">
-        <h2><strong>Question 01: </strong>How healthy are you physically?</h2>
+        <h1>How healthy are you physically?</h1>
         <div class="container text-center">
           <div class="row">
-            <div class="col-md-3 text-start">
+            <div class="col text-start">
               Not at all healthy
             </div>
-            <div class="col-md-6">
-
+            <div class="col text-center">
             </div>
-            <div class="col-md-3 text-end">
+            <div class="col text-end">
               Extremely healthy
             </div>
-          </div>
+  
         </div>
         <!-- <label for="q01" class="form-label"><strong>Question 01: </strong>How healthy are you physically?</label> -->
         <input type="hidden" name="questionId" value="q01" />
         <input type="hidden" class="btn-block" name="answer_changed" id="RS_changed">
         <div>
           <div>
-
             <input type="range" class="form-range" min="1" max="5" id="q01-RS" name="answer" onchange="sliderChanged();" list="markers" />
             <option value="1" label=""></option>
             <option value="2"></option>
             <option value="3"></option>
             <option value="4"></option>
             <option value="5" label=""></option>
-
-
           </div>
         </div>
-
-        <button type="submit" class="btn btn-primary btn-lg mt-5 w-50">Submit</button>
-
+        <button type="submit" class="btn btn-primary btn-lg mt-5 w-50">Next</button>
     </form>
-    <?php
-    // include "./includes/questions.php";
-
-    /* if(isset($_POST["q01"])){
-            echo "Physical health:".$_POST["q01"];
-            // Your Slider value is here.
-        } else{
-        Echo "Please slide the Slider Bar and Press Submit.";
-        } */
-
-
-
-    ?>
-
     <!-- END:QUESTION -->
-
-
 </body>

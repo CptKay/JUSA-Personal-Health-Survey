@@ -1,8 +1,9 @@
-    <!-- HEADER  -->
+    
     <?php
     include "./includes/header.php";
     ?>
-    <!-- END:HEADER -->
+    <body>
+    <!-- HEADER  -->
     <header>
     <nav class="navbar-expand">
 		<ol class="cd-multi-steps text-center custom-icons">
@@ -20,17 +21,18 @@
 		</ol>
 	</nav>
 </header>
-    <body>
+<!-- END:HEADER -->
+    
     <!-- QUESTION -->
  <div class="container text-center text-light">
 <form action="question7.php" method="post" class="form-horizontal" id="q06">
 <h2 id="">On a typical day, how many of your
-meals or snacks contain carbohydrates?:</h2>
+meals or snacks contain carbohydrates?</h2>
 
     <!--Radio Buttons-->
 <div class="container d-flex justify-content-center radio">
 <input type="hidden" name="questionId" value="q06" />
-<input type="number" min="0" max="5" id="q06-N" name="answer" class="form-control" placeholder="Enter up to 5 consumptions" required list="defaultNumbers" />
+<input type="number" min="0" max="5" id="q06" name="answer" class="form-control" placeholder="Enter up to 5 consumptions" required list="defaultNumbers" />
   <label class="form-label" for="typeNumber">Number input</label>
   <datalist id="defaultNumbers">
   <option value="1"></option>

@@ -21,9 +21,8 @@
     session_start();
     include "./includes/data-collector.php";
     ?>
+    <body>
     <!-- HEADER  -->
-    
-    <!-- END:HEADER -->
     <header>
     <nav class="navbar-expand">
 		<ol class="cd-multi-steps text-center custom-icons">
@@ -41,21 +40,11 @@
 		</ol>
 	</nav>
 </header>
-    <body>
+    <!-- END:HEADER -->
     <div class="container text-center text-light">
         <h1>
+    <!-- this sum up the answer and makes a total -->
     <?php
-        // Data question 01;
-
-      
-        /* if(isset($_POST["RangeSlider-q01"])){
-            echo "Physical health:".$_POST["RangeSlider-q01"]; */
-
-            // Your Slider value is here.
-        /* } else{
-        Echo "Please slide the Slider Bar and Press Submit.";
-        } */
-
         $sum = 0;
         if(isset($_SESSION)){
             foreach($_SESSION as $question){
@@ -63,9 +52,7 @@
                     $sum += $question['answer'];
                 }
             }
-            echo $sum;
-        }
-        
+        /* this show the option according to the result */
     if ($sum < 30) {
         echo "We have the Right Program for you Beginner fitness!
         <br>
@@ -85,8 +72,14 @@
         <br>";
         
     }
+}
         ?>
 </h1>
+<!-- The Exit button that navigate to page 1 -->
+<div>
+    <button class="btn btn-primary btn-lg mt-5 w-50" type="button" onclick="location.href='index.php'">Exit</button>
+</div>
+
 </div>
 </body>
         
