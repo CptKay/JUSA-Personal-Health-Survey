@@ -1,93 +1,95 @@
     <?php
     include "./includes/header.php";
     ?>
-    <!-- HEADER  -->
-    <header>
-      <nav class="navbar-expand d-flex">
-        <ol class="cd-multi-steps text-center custom-icons">
-          <li class="visited"><a href="index.php">Question 01</a></li>
-          <li class="visited"><a href="question2.php">Question 02</a></li>
-          <li class="visited"><a href="question3.php">Question 03</a></li>
-          <li class="current"><em>Question 04</em></li>
-          <li><em>Question 05</em></li>
-          <li><em>Question 06</em></li>
-          <li><em>Question 07</em></li>
-          <li><em>Question 08</em></li>
-          <li><em>Question 09</em></li>
-          <li><em>Question 10</em></li>
-          <li><em>Evaluation</em></li>
-        </ol>
-      </nav>
-    </header>
-    <!-- END:HEADER -->
 
     <body>
+      <!-- HEADER  -->
+      <header>
+        <nav class="navbar-expand">
+          <ol class="cd-multi-steps text-center custom-icons">
+            <li class="visited"><a href="index.php">Question 01</a></li>
+            <li class="visited"><a href="question2.php">Question 02</a></li>
+            <li class="visited"><a href="question3.php">Question 03</a></li>
+            <li class="current"><em>Question 04</em></li>
+            <li><em>Question 05</em></li>
+            <li><em>Question 06</em></li>
+            <li><em>Question 07</em></li>
+            <li><em>Question 08</em></li>
+            <li><em>Question 09</em></li>
+            <li><em>Question 10</em></li>
+            <li><em>Evaluation</em></li>
+          </ol>
+        </nav>
+      </header>
+      <!-- END:HEADER -->
+
+
       <!-- QUESTION -->
-      <div class="container justify-content-center text-center text-light">
-        <form class="form-horizontal" action="question5.php" method="post" name="q04" id="q04">
+      <div class="container justify-content-center  justify-content-between text-center text-light">
+        <form class="form-check form-horizontal" action="question5.php" method="post" name="q04" id="q04">
           <input type="hidden" name="questionId" value="q04" />
           <h1 id="">What additional physical activity do you
             do most?</h1>
 
           <!--Radio Buttons-->
-          <div class="container d-flex justify-content-center justify-content-between radio">
-
-            <div class="form-check form-check-inline radio text-light">
-              <input class="form-check-input" type="radio" name="answer" id="q04" value="1" required />
-              <label class="form-check-label" for="inlineRadio2">No additional physical activity</label>
+          <div class="form-check form-check-inline form-horizontal">
+            <div class="row">
+              <div class="form-check col">
+                <input class="form-check-input" type="radio" name="answer" id="q04" value="1" required />
+                <label class="form-check-label" for="inlineRadio2">No additional physical activity</label>
+              </div>
+              <div class="form-check col">
+                <input class="form-check-input" type="radio" name="answer" id="q04" value="4" required />
+                <label class="form-check-label" for="inlineRadio2">Lifting weights</label>
+              </div>
+              <div class="form-check col">
+                <input class="form-check-input" type="radio" name="answer" id="q04" value="3" required />
+                <label class="form-check-label" for="inlineRadio2">Walking</label>
+              </div>
             </div>
-
-            <div class="form-check form-check-inline text-light">
-              <input class="form-check-input" type="radio" name="answer" id="q04" value="4" required />
-              <label class="form-check-label" for="inlineRadio2">Lifting
-                weights</label>
+            <div class="row">
+              <div class="form-check col">
+                <input class="form-check-input" type="radio" name="answer" id="q04" value="5" required />
+                <label class="form-check-label" for="inlineRadio2">Jogging</label>
+              </div>
+              <div class="form-check col">
+                <input class="form-check-input" type="radio" name="answer" id="q04" value="5" required />
+                <label class="form-check-label" for="inlineRadio2">Running</label>
+              </div>
+              <div class="form-check col">
+                <input class="form-check-input" type="radio" name="answer" id="q04" value="5" required />
+                <label class="form-check-label" for="inlineRadio2">Swimming </label>
+              </div>
             </div>
-            <div class="form-check form-check-inline text-light">
-              <input class="form-check-input" type="radio" name="answer" id="q04" value="3" required />
-              <label class="form-check-label" for="inlineRadio2">Walking</label>
+            <div class="row">
+              <div class="form-check col">
+                <input class="form-check-input" type="radio" name="answer" id="q04" value="5" required />
+                <label class="form-check-label" for="inlineRadio2">Dancing</label>
+              </div>
+              <div class="form-check col">
+                <input class="form-check-input" type="radio" name="answer" id="q04" value="5" required />
+                <label class="form-check-label" for="inlineRadio2">Aerobics</label>
+              </div>
+              <div class="form-check col">
+                <input class="form-check-input" type="radio" name="answer" id="q04" value="5" required />
+                <label class="form-check-label" for="inlineRadio2">Pilates</label>
+              </div>
             </div>
-            <div class="form-check form-check-inline text-light">
-              <input class="form-check-input" type="radio" name="answer" id="q04" value="5" required />
-              <label class="form-check-label" for="inlineRadio2">Jogging</label>
+            <div class="row">
+              <div class="form-check col">
+                <input class="form-check-input" type="radio" name="answer" id="q04" value="3" required />
+                <label class="form-check-label" for="inlineRadio2">Team sports</label>
+              </div>
+              <div class="row">
+              <div class="form-check col">
+                <input class="form-check-input" type="radio" name="answer" id="q04" value="3" onchange="EnableDisableTextBoxNext('Other')" />
+                <label class="form-check-label" for="inlineRadio2">Other</label>
+                <input class="m-2" type="text" name="answer" id="addmoreDetailsOnSelection" disabled="disabled">
+              </div>
             </div>
-            <div class="form-check form-check-inline text-light">
-              <input class="form-check-input" type="radio" name="answer" id="q04" value="5" required />
-              <label class="form-check-label" for="inlineRadio2">Running</label>
+            <div>
+              <button class="btn btn-primary btn-lg mt-5 w-50" type="submit">Next</button>
             </div>
-
-
-            <div class="form-check form-check-inline radio text-light">
-              <input class="form-check-input" type="radio" name="answer" id="q04" value="5" required />
-              <label class="form-check-label" for="inlineRadio1">Swimming </label>
-            </div>
-
-            <div class="form-check form-check-inline text-light">
-              <input class="form-check-input" type="radio" name="answer" id="q04" value="5" required />
-              <label class="form-check-label" for="inlineRadio2">Dancing</label>
-            </div>
-            <div class="form-check form-check-inline text-light">
-              <input class="form-check-input" type="radio" name="answer" id="q04" value="5" required />
-              <label class="form-check-label" for="inlineRadio2">Aerobics</label>
-            </div>
-            <div class="form-check form-check-inline text-light">
-              <input class="form-check-input" type="radio" name="answer" id="q04" value="5" />
-              <label class="form-check-label" for="inlineRadio2">Pilates</label>
-            </div>
-            <div class="form-check form-check-inline text-light">
-              <input class="form-check-input" type="radio" name="answer" id="q04" value="3" />
-              <label class="form-check-label" for="inlineRadio2">Team sports</label>
-            </div>
-          </div>
-          <div class="container d-flex justify-content-center radio">
-
-
-            <input class="form-check-input" type="radio" name="answer" id="q04" value="3" onchange="EnableDisableTextBoxNext('Other')" />
-            <label class="form-check-label" for="inlineRadio2">Other</label>
-            <input class="m-2" type="text" name="answer" id="addmoreDetailsOnSelection" disabled="disabled">
-
-          </div>
-          <div>
-            <button class="btn btn-primary btn-lg mt-5 w-50" type="submit">Next</button>
           </div>
         </form>
       </div>

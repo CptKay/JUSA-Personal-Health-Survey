@@ -101,3 +101,5 @@ the third instruction and the hint of sven helped out.
 36. I wished we could play more around with the php option of validating but there was not enough time for that need to spend more houres in my study time. 
 
 37. im trying to clean the code without breaking the php function.
+38. we are working on the responsive samy is working on the code for the breadcrumb so we could actullay put in the head. so it wouldnt be manual
+Jules is working on page 4 radio buttion responsive .
