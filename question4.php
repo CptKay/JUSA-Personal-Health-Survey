@@ -84,6 +84,7 @@ weights</label>
 <input class="form-check-input" type="radio" name="answer" id="q04" value="3" onchange="EnableDisableTextBoxNext('Other')" />
   <label class="form-check-label" for="inlineRadio2">Other</label>
         <input class="m-2" type="text" name="answer" id="addmoreDetailsOnSelection" disabled="disabled">
+        <input class="m-2" type="hidden" name="answer" id="addmoreDetailsOnSelection" value="3">
 
 </div>
 <div>

@@ -10,13 +10,13 @@ include "./includes/header.php";
 
 <!-- END:HEADER -->
 
-<body>
+<!-- <body> -->
 
   <?php
   session_destroy();
   ?>
 
-  <header>
+  <!-- <header>
 
     <nav class="navbar-expand">
       <ol class="cd-multi-steps text-center custom-icons">
@@ -33,7 +33,7 @@ include "./includes/header.php";
         <li><em>Evaluation</em></li>
       </ol>
     </nav>
-  </header>
+  </header> -->
 
   <!-- QUESTION -->
 
@@ -61,11 +61,13 @@ include "./includes/header.php";
           <div>
 
             <input type="range" class="form-range" min="1" max="5" id="q01-RS" name="answer" onchange="sliderChanged();" list="markers" />
+            <datalist id="markers">
             <option value="1" label=""></option>
             <option value="2"></option>
             <option value="3"></option>
             <option value="4"></option>
             <option value="5" label=""></option>
+            </datalist>
 
 
           </div>
